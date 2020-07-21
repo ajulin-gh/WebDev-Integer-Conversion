@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+    <!--gets JavaScript and CSS from external files-->
+    <script src="JulinAndersProject4JavaScript.js"></script>
+    <link rel="stylesheet" href="JulinAndersProject4CSS.css"/>
+</head>
+<body id="total">
+
+<form>
+    <!--creates field for input box and buttons-->
+    <fieldset id="input">
+        <legend id="legend1"> Input </legend>
+                Enter Unsigned Integer <input type="text" id="inputBox" value="Input Here"/> </br> </br>
+                <input type="radio" name="convert" id="binaryRadio" checked/> Binary </br>
+                <input type="radio" name="convert" id="octalRadio"/> Octal </br>
+                <input type="radio" name="convert" id="hexRadio"/> Hexidecimal </br>
+                <input type="button" id="convertButton" value="Convert"/> </br>
+                <input type="button" id="historyButton" value="History"/> </br>
+                <input type="reset" /> </br>
+    </fieldset>
+    </br>
+    </br>
+    <!--creates field for output box-->
+    <fieldset id="output">
+        <legend id="legend2"> Output </legend>
+                Answer: <input type="text" id="outputBox" value="Output Here"/> </br> </br>
+    </fieldset>
+</form>
+    
+    <!--creates paragraph space for history to be placed in-->
+    <p id="history">
+        
+    </p>
+
+</body>
+</html>
